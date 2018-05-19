@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel='stylesheet' href='/css/style.css'>
 </head>
 <body>
-  <h2>Hello {{ name }}!</h2>
+  <form action='/hi' method='post'>
+    <input type='text' name='name' value='John'/>
+    <button type='submit'>Send</button>
+  </form>
 </body>
 </html>
