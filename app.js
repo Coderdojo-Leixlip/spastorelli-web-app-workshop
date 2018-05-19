@@ -14,7 +14,7 @@ nunjucks.configure('templates', {
 });
 
 app.get('/', (req, res) => {
-  res.render('home.html');
+  res.render('home.html', {name: 'LPTC CoderDojo'});
 });
 
 
