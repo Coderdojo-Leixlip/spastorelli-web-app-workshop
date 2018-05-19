@@ -1,0 +1,8 @@
+.DS_Store
+.env
+config.js
+app_ws.js
+calc.js
+.npm
+.nvmrc
+node_modules/

@@ -1,0 +1,24 @@
+{
+  "name": "spastorelli-web-app-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coderdojo-Leixlip/spastorelli-web-app-workshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Coderdojo-Leixlip/spastorelli-web-app-workshop/issues"
+  },
+  "homepage": "https://github.com/Coderdojo-Leixlip/spastorelli-web-app-workshop#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nunjucks": "^3.1.2",
+    "ws": "^5.1.1"
+  }
+}
